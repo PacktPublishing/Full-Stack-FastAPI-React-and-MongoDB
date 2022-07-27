@@ -1,0 +1,6 @@
+https://www.mongodb.com/docs/manual/installation/ MongoDB installation download and guides
+https://www.mongodb.com/try/download/community MongoDB Community Edition
+https://www.mongodb.com/try/download/database-tools MongoDB database tools
+https://www.mongodb.com/docs/compass/current/install/ - MongoDB Compass download and guide
+https://www.mongodb.com/atlas/database - MongoDB Atlas, cloud database
+

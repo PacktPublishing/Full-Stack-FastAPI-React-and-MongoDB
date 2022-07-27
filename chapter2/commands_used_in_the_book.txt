@@ -1,0 +1,35 @@
+mongo - start the shell
+show dbs - show the databases
+use carsDB - select the database
+show collections - show the collections in the selected database
+
+db.cars.find() - select * documents
+db.cars.find({year:2019}) - select documents where year=2019
+db.cars.find({year:{'$gt':2015},price:{$lt:7000},brand:'Ford'}).pretty() - se;ect cars where the year is greater thatn 2015 price is less than 7000 and the brand is Ford
+db.cars.find({brand:'Ford',make:'Fiesta'},{year:1,km:1,_id:0}).sort({'year':1}).limit(5) - select cars sort by year and limit to 5 results
+db.insertOne({'brand':'Magic Car','make':'Green Dragon', 'year':1200}) - insert one car into database
+.cars.insertMany([{brand:'Magic Car',make:'Yellow Dragon',year:1200},{brand:'Magic Car',make:'Red Dragon',legs:4}]) - insert many
+db.cars.updateOne({make:'Fiesta'},{$set:{'Salesman':'Marko'}}) - update one document
+db.cars.updateMany({make:'Fiesta'},{$inc:{price:-200}}) - update many documents
+db.cars.deleteMany({brand:'Magic Car'}) - delete many documents
+db.cars.drop() - drop collection
+
+let fiesta_cars = db.cars.find({'make':'Fiesta'}) - cursor creation
+db.cars.find({year:2015},{brand:1,make:1,year:1,_id:0,price:1}).sort({price:1}).limit(5) - projection sorting and limiting
+
+db.cars.aggregate([{$match: {brand:"Fiat"}}]) - aggregation - match
+db.cars.aggregate([
+{$match: {brand:"Fiat"}},
+{$group:{_id:{model:"$make"},avgPrice: { $avg: "$price"} }}
+]) - aggregation: match, group, aggregation function (average)
+
+db.cars.aggregate([
+  {$match:{brand:"Opel"}},
+  {$project:{_id:0,price:1,year:1,fullName:
+    {$concat:["$make"," ","$brand"]}}},      
+   {$group:{_id:{make:"$fullName"},avgPrice:{$avg:"$price"} }},
+  {$sort: {avgPrice: -1}},
+  {$limit: 10}
+]).pretty() - aggregation pipeline
+
+{$project:{_id:0,price:1,year:1,fullName:{$concat:["$make"," ","$brand"]}}} - projection and concatenation

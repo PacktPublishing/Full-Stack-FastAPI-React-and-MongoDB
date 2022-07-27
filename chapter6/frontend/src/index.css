@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .active-link{
+    @apply bg-yellow-500 p-4 shadow-md text-white
+    }
+    
+}

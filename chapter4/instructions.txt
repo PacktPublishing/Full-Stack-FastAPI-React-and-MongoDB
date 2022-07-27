@@ -1,0 +1,17 @@
+install Node.js and npm: https://nodejs.org/en/download/
+
+
+npx create-react-app cars - creates a React app called cars in the current directory
+npx create-react-app users - creates a React app called cars in the current directory
+npm start - starts the development server
+
+npm install -D tailwindcss postcss@latest autoprefixer - install packages necessary for Tailwind integration
+
+npm tailwind init -p  - initialize the Tailwind configuration file
+
+edit the file index.css:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+

@@ -1,0 +1,3 @@
+Once into the folder, run npm install to install all the dependencies
+npm start to start the app
+set your own Heroku URL if you are deploying to Heroku

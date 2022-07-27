@@ -1,0 +1,4 @@
+Create a .env file with the following content:
+
+DB_URL=mongodb+srv://<your connection string>
+DB_NAME=carsApp

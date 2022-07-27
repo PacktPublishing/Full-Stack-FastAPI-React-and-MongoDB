@@ -1,0 +1,24 @@
+Python download page: https://www.python.org/downloads/
+Git download page: https://git-scm.com/downloads
+Visual Studio Code download: https://code.visualstudio.com/download
+Cmder (console emulator for Windows) download: https://github.com/cmderdev/cmder
+Postman REST Client download: https://www.postman.com/
+Insomnia REST Client download: https://insomnia.rest/
+HTTPie REST Client: https://httpie.io/
+
+
+$ python -m venv venv - create a virtual environment called "venv"
+- navigate to /venv/Scripts 
+$ activate - to activate the virtual environment
+
+$ (venv) pip install httpie - install httpie
+$ (venv) pip install fastapi uvicorn - install FastAPI and Uvicorn packages
+$ (venv) pip install pydantic - install Pydantic (although it should already be installed with FastAPI!)
+
+$ (venv) python chapter3_pydantic.py - running the examples in the Python interpreter
+
+$ (venv) uvicorn chapter_3_first_endpoint:app --reload - starting the server - filename:instance_name
+
+$ (venv) (venv) λ http "http://localhost:8000/" - testing with httpie
+
+$ (venv) pip install python-multipart - install Python Multipart for handling form data
