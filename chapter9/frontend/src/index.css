@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+.menu {
+    @apply p-2 my-2 rounded-lg
+}
+.active {
+    @apply text-red-800 border border-red-800
+}
+}

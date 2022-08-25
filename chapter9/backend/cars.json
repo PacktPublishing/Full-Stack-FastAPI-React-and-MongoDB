@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "model": "Marea"
+  },
+  "avgKm": 226773.5
+},{
+  "_id": {
+    "model": "Ulysse"
+  },
+  "avgKm": 226565
+},{
+  "_id": {
+    "model": "Stilo"
+  },
+  "avgKm": 207230
+},{
+  "_id": {
+    "model": "Tempra"
+  },
+  "avgKm": 203500
+},{
+  "_id": {
+    "model": "Multipla"
+  },
+  "avgKm": 194302.14285714287
+},{
+  "_id": {
+    "model": "Croma"
+  },
+  "avgKm": 192818.45833333334
+},{
+  "_id": {
+    "model": "Palio"
+  },
+  "avgKm": 188650
+},{
+  "_id": {
+    "model": "Punto"
+  },
+  "avgKm": 179875.5
+},{
+  "_id": {
+    "model": "Idea"
+  },
+  "avgKm": 174078.58333333334
+},{
+  "_id": {
+    "model": "Sedici"
+  },
+  "avgKm": 171750.2
+},{
+  "_id": {
+    "model": "Grande Punto"
+  },
+  "avgKm": 167311.23376623375
+},{
+  "_id": {
+    "model": "Seicento"
+  },
+  "avgKm": 165000
+},{
+  "_id": {
+    "model": "Bravo"
+  },
+  "avgKm": 161005.92
+},{
+  "_id": {
+    "model": "Doblo"
+  },
+  "avgKm": 158813.56603773584
+},{
+  "_id": {
+    "model": "500L"
+  },
+  "avgKm": 154006
+},{
+  "_id": {
+    "model": "Ducato"
+  },
+  "avgKm": 152316.75
+},{
+  "_id": {
+    "model": "Panda"
+  },
+  "avgKm": 147225.375
+},{
+  "_id": {
+    "model": "Freemonte"
+  },
+  "avgKm": 145444.14285714287
+},{
+  "_id": {
+    "model": "Fiorino"
+  },
+  "avgKm": 139750
+},{
+  "_id": {
+    "model": "Qubo"
+  },
+  "avgKm": 134404
+},{
+  "_id": {
+    "model": "Scudo"
+  },
+  "avgKm": 129957.66666666667
+},{
+  "_id": {
+    "model": "500"
+  },
+  "avgKm": 125122.86363636363
+},{
+  "_id": {
+    "model": "Tipo"
+  },
+  "avgKm": 91632.66666666667
+},{
+  "_id": {
+    "model": "500X"
+  },
+  "avgKm": 83000
+},{
+  "_id": {
+    "model": "500C"
+  },
+  "avgKm": 55000
+}]
