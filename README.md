@@ -5,7 +5,7 @@ Full Stack FastAPI, React, and MongoDB, published by Packt
 
 This is the code repository for [Full Stack FastAPI, React, and MongoDB,](https://www.packtpub.com/product/full-stack-fastAPI-react-and-mongoDB/9781803231822), published by Packt.
 
-**Build Python web applications with the FARM stack	**
+**Build Python web applications with the FARM stack**
 
 ## What is this book about?
 
@@ -47,9 +47,9 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 
 ### Related products <Other books you may enjoy>
-* Full-Stack Web Development with GraphQL and React [[Packt]](https://www.packtpub.com/product/full-stack-web-development-with-graphql-and-react-second-edition/9781801077880) [[Amazon]](https://www.amazon.com/Full-Stack-Web-Development-GraphQL-React/dp/1801077886)
+* Building Python Web APIs with FastAPI  [[Packt]](https://www.packtpub.com/product/building-web-apis-with-fastapi-and-python/9781801076630) [[Amazon]](https://www.amazon.com/Building-Python-APIs-FastAPI-high-performance/dp/1801076634)
 
-* Modern API Development with Spring and Spring Boot [[Packt]](https://www.packtpub.com/product/modern-api-development-with-spring-and-spring-boot/9781800562479) [[Amazon]](https://www.amazon.com/Modern-API-Development-Spring-Boot/dp/1800562470)
+* React Projects - Second Edition [[Packt]](https://www.packtpub.com/product/react-projects-second-edition/9781801070638) [[Amazon]](https://www.amazon.com/React-Projects-cross-platform-professional-developer/dp/1801070636)
 
 ## Get to Know the Author
 **Marko Aleksendrić** is a graduate of the University of Belgrade, Serbia, with a Ph.D. and also a Master’s degree in control engineering. He is a self-taught full-stack developer and former scientist and works as an analyst in a trade promotion agency. He started his programming journey with Visual Basic and Fortran 77 for numeric simulations. Upon discovering Python (version 2.3), he started using it for all kinds of automation tasks: building reporting pipelines and exporting measurement data from instruments into Excel or similar user-friendly reporting tools.	
