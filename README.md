@@ -51,5 +51,8 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * React Projects - Second Edition [[Packt]](https://www.packtpub.com/product/react-projects-second-edition/9781801070638) [[Amazon]](https://www.amazon.com/React-Projects-cross-platform-professional-developer/dp/1801070636)
 
+## Errata 
+ * Page 68 (Subtitle : How does FastAPI speak REST?) :-The output should have been "Hello FastAPI" as per the code of file chapter3_first_endpoint.py. But it is          mentioned as "Success" in the output image i.e Figure 3.1.
+
 ## Get to Know the Author
 **Marko Aleksendrić** is a graduate of the University of Belgrade, Serbia, with a Ph.D. and also a Master’s degree in control engineering. He is a self-taught full-stack developer and former scientist and works as an analyst in a trade promotion agency. He started his programming journey with Visual Basic and Fortran 77 for numeric simulations. Upon discovering Python (version 2.3), he started using it for all kinds of automation tasks: building reporting pipelines and exporting measurement data from instruments into Excel or similar user-friendly reporting tools.	
