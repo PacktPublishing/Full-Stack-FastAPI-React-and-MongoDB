@@ -56,3 +56,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Get to Know the Author
 **Marko Aleksendrić** is a graduate of the University of Belgrade, Serbia, with a Ph.D. and also a Master’s degree in control engineering. He is a self-taught full-stack developer and former scientist and works as an analyst in a trade promotion agency. He started his programming journey with Visual Basic and Fortran 77 for numeric simulations. Upon discovering Python (version 2.3), he started using it for all kinds of automation tasks: building reporting pipelines and exporting measurement data from instruments into Excel or similar user-friendly reporting tools.	
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781803231822">https://packt.link/free-ebook/9781803231822 </a> </p>
