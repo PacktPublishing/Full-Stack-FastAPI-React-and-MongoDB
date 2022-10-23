@@ -23,3 +23,4 @@ starkbank-ecdsa==2.0.3
 starlette==0.19.1
 typing_extensions==4.3.0
 uvicorn==0.18.2
+joblib

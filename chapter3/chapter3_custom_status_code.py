@@ -1,4 +1,13 @@
-from fastapi import FastAPI, status
+from fastapi import FastAPI, status, HTTPException
+
+from pydantic import BaseModel
+
+
+class InsertCar(BaseModel):
+    brand: str
+    model: str
+    year: int
+
 
 app = FastAPI()
 
