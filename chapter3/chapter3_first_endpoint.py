@@ -12,4 +12,4 @@ async def post_root():
 
 
 
-# uvicorn chapter_3_first_endpoint:app --reload 
+# uvicorn chapter3_first_endpoint:app --reload 
